@@ -1,0 +1,21 @@
+{
+    "name": "debug-hapi-in-vscode",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "babel-preset-latest": "^6.22.0",
+        "hapi": "^16.1.0"
+    },
+    "devDependencies": {
+        "babel-cli": "^6.23.0",
+        "babel-register": "^6.23.0"
+    },
+    "scripts": {
+        "build": "babel server.js --out-dir dist --source-maps",
+        "start": "babel-node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC"
+}
